@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+
+# Ortam
+.env
+.env.*
+!.env.example
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Veri / artefaktlar
+backend/data/corpus/*
+!backend/data/corpus/.gitkeep
+*.log
+
+# Kişisel evaluation çıktıları / test verisi
+backend/evaluation/cross_answers.json
+backend/evaluation/cross_answers_decomp.json
+backend/evaluation/cross_metrics.json
+backend/evaluation/cross_metrics_decomp.json
+backend/evaluation/cross_golden_set.jsonl
+backend/evaluation/golden_set_real.jsonl
